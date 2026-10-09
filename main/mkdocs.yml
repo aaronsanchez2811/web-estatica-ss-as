@@ -11,3 +11,6 @@ nav:
   - Xarxes:
       - TCP/IP: xarxes/tcpip.md
       - DNS: xarxes/dns.md
+  - Serveis:
+      - SSH: serveis/ssh.md
+      - HTTP: serveis/http.md
