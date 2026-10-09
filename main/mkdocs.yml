@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: SysDocs - Documentació IT
+site_description: Documentació tècnica per a administradors de sistemes
+site_author: Aaron Sanchez
+site_url: https://aaronsanchez2811.github.io/web-estatica-ss-as/
+theme:
+  name: readthedocs
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Inici: index.md

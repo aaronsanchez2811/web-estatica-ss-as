@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# SysDocs - Documentació IT
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Benvingut a **SysDocs**, la web de documentació tècnica del departament d'informàtica d'una empresa fictícia.
 
-## Commands
+## Objectiu de la web
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Reunir en un sol lloc la informació que necessita un *administrador de sistemes* en el seu dia a dia: comandes, configuracions i bones pràctiques.
 
-## Project layout
+## Seccions
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* [Linux](linux/usuaris.md): usuaris, grups i permisos.
+* [Xarxes](xarxes/tcpip.md): TCP/IP i DNS.
+* [Serveis](serveis/ssh.md): SSH i HTTP.
+* [Blog](blog/article1.md): articles tècnics.
