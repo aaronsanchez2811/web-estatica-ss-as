@@ -8,3 +8,6 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - Inici: index.md
+  - Xarxes:
+      - TCP/IP: xarxes/tcpip.md
+      - DNS: xarxes/dns.md
