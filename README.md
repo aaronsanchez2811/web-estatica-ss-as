@@ -19,9 +19,9 @@ He triat **MkDocs** perquè està pensat per a documentació tècnica, es config
 
 ```bash
 pip install mkdocs
-cd main
+
 mkdocs serve      # servidor local a http://127.0.0.1:8000
-mkdocs build      # genera la carpeta main/site (HTML, CSS, JS)
+mkdocs build      # genera la carpeta site (HTML, CSS, JS)
 ```
 
 ## Publicació
@@ -31,15 +31,14 @@ mkdocs build      # genera la carpeta main/site (HTML, CSS, JS)
 
 ## Desplegament automàtic
 
-El workflow `.github/workflows/deploy.yml` s'executa a cada `push` a `main`: instal·la MkDocs, executa `mkdocs build` i publica `main/site` a GitHub Pages.
+El workflow `.github/workflows/deploy.yml` s'executa a cada `push` a `main`: instal·la MkDocs, executa `mkdocs build` i publica `site` a GitHub Pages.
 
 ## Estructura
 
 ```text
 .github/workflows/deploy.yml   # GitHub Actions
-main/
-  mkdocs.yml                   # configuració
-  docs/                        # fitxers font (Markdown, imatges, CSS)
-    index.md  linux/  xarxes/  serveis/  blog/  img/  stylesheets/
-  site/                        # fitxers generats (no es puja a Git)
+mkdocs.yml                     # configuració
+docs/                          # fitxers font (Markdown, imatges, CSS)
+  index.md  linux/  xarxes/  serveis/  blog/  img/  stylesheets/
+site/                          # fitxers generats (no es puja a Git)
 ```

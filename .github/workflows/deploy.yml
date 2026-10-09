@@ -20,10 +20,9 @@ jobs:
           python-version: "3.12"
       - run: pip install mkdocs
       - run: mkdocs build
-        working-directory: main
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: main/site
+          path: site
 
   deploy:
     needs: build

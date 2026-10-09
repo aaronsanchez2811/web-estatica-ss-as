@@ -5,7 +5,7 @@
 * **Menú sense Linux**: una modificació del `mkdocs.yml` va fallar; ho vaig corregir en un commit (`Fix navigation menu`).
 
 ## Decisions de configuració
-Tema `readthedocs` (inclòs a MkDocs), CSS propi (`extra.css`) amb color verd, menú definit a `nav` i `site_url` per a GitHub Pages. El projecte és dins la carpeta `main/`, per això el workflow usa `working-directory: main`.
+Tema `readthedocs` (inclòs a MkDocs), CSS propi (`extra.css`) amb color verd, menú definit a `nav` i `site_url` per a GitHub Pages. Els fitxers del projecte (`mkdocs.yml` i `docs/`) són a l'arrel del repositori.
 
 ## SSG utilitzat i comparació
 MkDocs: simple i orientat a documentació. Hugo és el més ràpid i flexible però més complex; Jekyll és el que integra GitHub Pages de manera nativa, però depèn de Ruby.
