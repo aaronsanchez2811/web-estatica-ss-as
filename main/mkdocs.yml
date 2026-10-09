@@ -17,3 +17,7 @@ nav:
   - Serveis:
       - SSH: serveis/ssh.md
       - HTTP: serveis/http.md
+  - Blog:
+      - Assegurar SSH: blog/article1.md
+      - Firewall amb UFW: blog/article2.md
+      - Backups amb rsync: blog/article3.md
